@@ -40,6 +40,11 @@
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.0.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>2.0</version>
+        </dependency>
         <!--		<dependency>-->
         <!--			<groupId>io.logz.logback</groupId>-->
         <!--			<artifactId>logzio-logback-appender</artifactId>-->
@@ -125,7 +130,7 @@
         <dependency>
             <groupId>com.google.firebase</groupId>
             <artifactId>firebase-admin</artifactId>
-            <version>9.0.0</version>
+            <version>9.2.0</version>
         </dependency>
     </dependencies>
 
